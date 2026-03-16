@@ -2,16 +2,7 @@
   "name": "gws-personas",
   "description": "Role-based Google Workspace personas — pre-configured skill bundles for executives, project managers, sales, IT, and more.",
   "version": "0.16.0",
-  "commands": [
-    "./commands/persona-exec-assistant/",
-    "./commands/persona-project-manager/",
-    "./commands/persona-sales-ops/",
-    "./commands/persona-it-admin/",
-    "./commands/persona-hr-coordinator/",
-    "./commands/persona-content-creator/",
-    "./commands/persona-customer-support/",
-    "./commands/persona-event-coordinator/",
-    "./commands/persona-team-lead/",
-    "./commands/persona-researcher/"
-  ]
+  "author": {
+    "name": "Google Workspace"
+  }
 }
