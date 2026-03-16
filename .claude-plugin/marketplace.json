@@ -1,0 +1,52 @@
+{
+  "name": "google-workspace",
+  "owner": {
+    "name": "Google Workspace",
+    "email": "google-workspace-cli@google.com"
+  },
+  "metadata": {
+    "description": "Google Workspace skills for Claude Code — Gmail, Drive, Sheets, Calendar, Docs, and more.",
+    "version": "0.16.0"
+  },
+  "plugins": [
+    {
+      "name": "gws-core",
+      "source": "./plugins/gws-core",
+      "description": "Core Google Workspace CLI skills — Gmail, Drive, Sheets, Calendar, Docs, Chat, and 10+ more services.",
+      "version": "0.16.0",
+      "author": { "name": "Google Workspace" },
+      "homepage": "https://github.com/googleworkspace/cli",
+      "repository": "https://github.com/googleworkspace/cli",
+      "license": "Apache-2.0",
+      "keywords": ["google", "workspace", "gmail", "drive", "sheets", "calendar", "docs", "chat"],
+      "category": "productivity",
+      "tags": ["google-workspace", "gmail", "drive", "sheets", "calendar", "docs", "chat", "tasks", "slides", "forms", "keep", "meet", "people", "classroom"]
+    },
+    {
+      "name": "gws-personas",
+      "source": "./plugins/gws-personas",
+      "description": "Role-based Google Workspace personas — pre-configured skill bundles for executives, project managers, sales, IT, and more.",
+      "version": "0.16.0",
+      "author": { "name": "Google Workspace" },
+      "homepage": "https://github.com/googleworkspace/cli",
+      "repository": "https://github.com/googleworkspace/cli",
+      "license": "Apache-2.0",
+      "keywords": ["google", "workspace", "persona", "role"],
+      "category": "productivity",
+      "tags": ["persona", "executive-assistant", "project-manager", "sales", "it-admin", "hr", "researcher"]
+    },
+    {
+      "name": "gws-recipes",
+      "source": "./plugins/gws-recipes",
+      "description": "Pre-built Google Workspace recipes — multi-step workflows for email, drive, sheets, calendar, and cross-service automation.",
+      "version": "0.16.0",
+      "author": { "name": "Google Workspace" },
+      "homepage": "https://github.com/googleworkspace/cli",
+      "repository": "https://github.com/googleworkspace/cli",
+      "license": "Apache-2.0",
+      "keywords": ["google", "workspace", "recipe", "workflow", "automation"],
+      "category": "productivity",
+      "tags": ["recipe", "workflow", "automation", "email", "drive", "sheets", "calendar"]
+    }
+  ]
+}
